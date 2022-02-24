@@ -2,7 +2,6 @@
 
 - One-off fork attempting to fix https://github.com/kahing/goofys/issues/676 and https://github.com/kahing/goofys/issues/674
   - https://github.com/ebressler/fusego to fix go v1.17 problems
-  - https://github.com/jacobsa/fuse/commit/d82237972ed9e7b2180ad27b3558f4c746a1fe16 to increase FUSE buffer size to 1MiB
 
 # Overview
 
