@@ -1,6 +1,7 @@
 # About
 
-- One-off fork attempting to fix https://github.com/kahing/goofys/issues/676 and https://github.com/kahing/goofys/issues/674
+- Fork of https://github.com/kahing/goofys 
+- One-off attempt to fix https://github.com/scaleoutsean/goofys/issues/676 and https://github.com/scaleoutsean/goofys/issues/674
 
 # Overview
 
@@ -16,7 +17,7 @@ close-to-open.
 
 # Installation
 
-* On Linux, install via [pre-built binaries](https://github.com/kahing/goofys/releases/latest/download/goofys). You may also need to install fuse-utils first.
+* On Linux, install via [pre-built binaries](https://github.com/scaleoutsean/goofys/releases/latest/download/goofys). You may also need to install fuse-utils first.
 
 * On macOS, install via [Homebrew](https://brew.sh/):
 
@@ -29,8 +30,8 @@ $ brew install goofys
 
 ```ShellSession
 $ export GOPATH=$HOME/work
-$ go get github.com/kahing/goofys
-$ go install github.com/kahing/goofys
+$ go get github.com/scaleoutsean/goofys
+$ go install github.com/scaleoutsean/goofys
 ```
 
 # Usage
@@ -55,16 +56,16 @@ configured for `root`, and can add this to `/etc/fstab`:
 goofys#bucket   /mnt/mountpoint        fuse     _netdev,allow_other,--file-mode=0666,--dir-mode=0777    0       0
 ```
 
-See also: [Instruction for Azure Blob Storage, Azure Data Lake Gen1, and Azure Data Lake Gen2](https://github.com/kahing/goofys/blob/master/README-azure.md).
+See also: [Instruction for Azure Blob Storage, Azure Data Lake Gen1, and Azure Data Lake Gen2](https://github.com/scaleoutsean/goofys/blob/master/README-azure.md).
 
-Got more questions? Check out [questions other people asked](https://github.com/kahing/goofys/issues?utf8=%E2%9C%93&q=is%3Aissue%20label%3Aquestion%20)
+Got more questions? Check out [questions other people asked](https://github.com/scaleoutsean/goofys/issues?utf8=%E2%9C%93&q=is%3Aissue%20label%3Aquestion%20)
 
 # Benchmark
 
 Using `--stat-cache-ttl 1s --type-cache-ttl 1s` for goofys
 `-ostat_cache_expire=1` for s3fs to simulate cold runs. Detail for the
 benchmark can be found in
-[bench.sh](https://github.com/kahing/goofys/blob/master/bench/bench.sh). [Raw data](https://github.com/kahing/goofys/blob/master/bench/)
+[bench.sh](https://github.com/scaleoutsean/goofys/blob/master/bench/bench.sh). [Raw data](https://github.com/scaleoutsean/goofys/blob/master/bench/)
 is available as well. The test was run on an EC2 m5.4xlarge in us-west-2a
 connected to a bucket in us-west-2. Units are seconds.
 
@@ -76,7 +77,7 @@ $ sudo docker run -e BUCKET=$TESTBUCKET -e CACHE=false --rm --privileged --net=h
 # result will be written to $TESTBUCKET
 ```
 
-See also: [cached benchmark result](https://github.com/kahing/goofys/blob/master/bench/cache/README.md) and [result on Azure](https://github.com/kahing/goofys/blob/master/bench/azure/README.md).
+See also: [cached benchmark result](https://github.com/scaleoutsean/goofys/blob/master/bench/cache/README.md) and [result on Azure](https://github.com/scaleoutsean/goofys/blob/master/bench/azure/README.md).
 
 # License
 
