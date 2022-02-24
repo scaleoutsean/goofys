@@ -234,6 +234,8 @@ github.com/hashicorp/serf v0.8.2/go.mod h1:6hOLApaqBFA1NXqRQAsxw9QxuDEvNxSQRwA/J
 github.com/ianlancetaylor/demangle v0.0.0-20181102032728-5e5cf60278f6/go.mod h1:aSSvb/t6k1mPoxDqO4vJh6VOCGPwU4O0C2/Eqndh1Sc=
 github.com/ianlancetaylor/demangle v0.0.0-20200824232613-28f6c0f3b639/go.mod h1:aSSvb/t6k1mPoxDqO4vJh6VOCGPwU4O0C2/Eqndh1Sc=
 github.com/inconshreveable/mousetrap v1.0.0/go.mod h1:PxqpIevigyE2G7u3NXJIT2ANytuPF1OarO4DADm73n8=
+github.com/jacobsa/fuse v0.0.0-20220214191219-c4197873da0d h1:HkZBmOrvImQdZ+G5f40rcGm70xwXNGMcaUla937Z72I=
+github.com/jacobsa/fuse v0.0.0-20220214191219-c4197873da0d/go.mod h1:xtZnnLxHY6QniCrfIpTwr5h8mH8zr+jsOFj0y9cfyp4=
 github.com/jacobsa/oglematchers v0.0.0-20150720000706-141901ea67cd/go.mod h1:TlmyIZDpGmwRoTWiakdr+HA1Tukze6C6XbRVidYq02M=
 github.com/jacobsa/oglemock v0.0.0-20150831005832-e94d794d06ff/go.mod h1:gJWba/XXGl0UoOmBQKRWCJdHrr3nE0T65t6ioaj3mLI=
 github.com/jacobsa/ogletest v0.0.0-20170503003838-80d50a735a11/go.mod h1:+DBdDyfoO2McrOyDemRBq0q9CMEByef7sYl7JH5Q3BI=
@@ -316,6 +318,8 @@ github.com/satori/go.uuid v1.2.1-0.20181028125025-b2ce2384e17b h1:gQZ0qzfKHQIybL
 github.com/satori/go.uuid v1.2.1-0.20181028125025-b2ce2384e17b/go.mod h1:dA0hQrYB0VpLJoorglMZABFdXlWrHn1NEOzdhQKdks0=
 github.com/scaleoutsean/fusego v0.0.0-20220224042622-855118b25f0f h1:AdHAJvazD+HHPeeOUgqVjAbmGcQh9hJQHxK8hSaKVro=
 github.com/scaleoutsean/fusego v0.0.0-20220224042622-855118b25f0f/go.mod h1:KLcJbUMwVKc9zsh1Jfz2lSM0Kk2N1QlBkimwl0zifEc=
+github.com/scaleoutsean/fusego v0.0.0-20220224061438-521540c7d9e4 h1:sl8mKs/eMVuMQ5PIiY1AfYxYjCH0GUk044F1hp/BsFs=
+github.com/scaleoutsean/fusego v0.0.0-20220224061438-521540c7d9e4/go.mod h1:KLcJbUMwVKc9zsh1Jfz2lSM0Kk2N1QlBkimwl0zifEc=
 github.com/sean-/seed v0.0.0-20170313163322-e2103e2c3529/go.mod h1:DxrIzT+xaE7yg65j358z/aeFdxmN0P9QXhEzd20vsDc=
 github.com/sevlyar/go-daemon v0.1.5 h1:Zy/6jLbM8CfqJ4x4RPr7MJlSKt90f00kNM1D401C+Qk=
 github.com/sevlyar/go-daemon v0.1.5/go.mod h1:6dJpPatBT9eUwM5VCw9Bt6CdX9Tk6UWvhW3MebLDRKE=

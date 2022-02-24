@@ -1,8 +1,8 @@
 package main
 
 import (
-	goofys "github.com/kahing/goofys/api"
-	common "github.com/kahing/goofys/api/common"
+	goofys "github.com/scaleoutsean/goofys/api"
+	common "github.com/scaleoutsean/goofys/api/common"
 
 	"fmt"
 	"context"
