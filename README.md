@@ -1,7 +1,6 @@
 # About
 
 - One-off fork attempting to fix https://github.com/kahing/goofys/issues/676 and https://github.com/kahing/goofys/issues/674
-  - https://github.com/ebressler/fusego to fix go v1.17 problems
 
 # Overview
 

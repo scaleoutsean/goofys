@@ -23,8 +23,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/jacobsa/fuse"
-	"github.com/jacobsa/fuse/fuseops"
+	"github.com/scaleoutsean/fusego"
+	"github.com/scaleoutsean/fusego/fuseops"
 )
 
 type FileHandle struct {

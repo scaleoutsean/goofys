@@ -27,7 +27,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/jacobsa/fuse"
+	"github.com/scaleoutsean/fusego"
 	uuid "github.com/satori/go.uuid"
 	"github.com/sirupsen/logrus"
 

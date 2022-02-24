@@ -20,7 +20,7 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/jacobsa/fuse"
+	"github.com/scaleoutsean/fusego"
 	"github.com/shirou/gopsutil/process"
 )
 

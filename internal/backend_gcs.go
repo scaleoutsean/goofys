@@ -13,7 +13,7 @@ import (
 	"syscall"
 
 	"cloud.google.com/go/storage"
-	"github.com/jacobsa/fuse"
+	"github.com/scaleoutsean/fusego"
 
 	"golang.org/x/sync/errgroup"
 	syncsem "golang.org/x/sync/semaphore"

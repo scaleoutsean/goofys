@@ -26,7 +26,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/service/s3"
 
-	"github.com/jacobsa/fuse"
+	"github.com/scaleoutsean/fusego"
 )
 
 // GCS variant of S3

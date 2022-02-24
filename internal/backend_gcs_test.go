@@ -13,7 +13,7 @@ import (
 	"sort"
 	"syscall"
 
-	"github.com/jacobsa/fuse"
+	"github.com/scaleoutsean/fusego"
 	"golang.org/x/oauth2/google"
 	"golang.org/x/sync/errgroup"
 	. "gopkg.in/check.v1"

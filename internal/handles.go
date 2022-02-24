@@ -27,8 +27,8 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 
-	"github.com/jacobsa/fuse"
-	"github.com/jacobsa/fuse/fuseops"
+	"github.com/scaleoutsean/fusego"
+	"github.com/scaleoutsean/fusego/fuseops"
 	"golang.org/x/sys/unix"
 
 	"github.com/sirupsen/logrus"

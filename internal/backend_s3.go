@@ -33,7 +33,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/request"
 	"github.com/aws/aws-sdk-go/service/s3"
 
-	"github.com/jacobsa/fuse"
+	"github.com/scaleoutsean/fusego"
 )
 
 type S3Backend struct {

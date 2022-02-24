@@ -25,9 +25,9 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 
-	"github.com/jacobsa/fuse"
-	"github.com/jacobsa/fuse/fuseops"
-	"github.com/jacobsa/fuse/fuseutil"
+	"github.com/scaleoutsean/fusego"
+	"github.com/scaleoutsean/fusego/fuseops"
+	"github.com/scaleoutsean/fusego/fuseutil"
 )
 
 type DirInodeData struct {

@@ -1,4 +1,4 @@
-module github.com/kahing/goofys
+module github.com/scaleoutsean/goofys
 
 go 1.14
 
@@ -18,12 +18,10 @@ require (
 	github.com/go-ole/go-ole v1.2.5 // indirect
 	github.com/google/uuid v1.1.2
 	github.com/gopherjs/gopherjs v0.0.0-20210413103415-7d3cbed7d026 // indirect
-	github.com/jacobsa/fuse v0.0.0-20220214191219-c4197873da0d
 	github.com/kardianos/osext v0.0.0-20190222173326-2bc1f35cddc0
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/satori/go.uuid v1.2.1-0.20181028125025-b2ce2384e17b
-	// github.com/jacobsa/fuse v0.0.0-20220214191219-c4197873da0d
-	github.com/scaleoutsean/fusego v0.0.0-20220224061438-521540c7d9e4
+	github.com/scaleoutsean/fusego v0.0.0-20220224074057-4a6429e46bb8
 	github.com/sevlyar/go-daemon v0.1.5
 	github.com/shirou/gopsutil v0.0.0-20190731134726-d80c43f9c984
 	github.com/sirupsen/logrus v1.4.3-0.20190807103436-de736cf91b92
@@ -36,5 +34,3 @@ require (
 	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127
 	gopkg.in/ini.v1 v1.51.0
 )
-
-// replace github.com/jacobsa/fuse => github.com/scaleoutsean/fusego 521540c7d9e4cc1abd6fd83cadf5e9f2b3a14bf9
