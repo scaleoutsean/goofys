@@ -1,8 +1,8 @@
-<img src="doc/goofys.png" height="32" width="32" align="middle" /> Goofys is a high-performance, POSIX-ish [Amazon S3](https://aws.amazon.com/s3/) file system written in Go
+# About
 
-[![Build Status](https://travis-ci.org/kahing/goofys.svg?branch=master)](https://travis-ci.org/kahing/goofys)
-[![Github All Releases](https://img.shields.io/github/downloads/kahing/goofys/total.svg)](https://github.com/kahing/goofys/releases/)
-[![Twitter Follow](https://img.shields.io/twitter/follow/s3goofys.svg?style=social&label=Follow)](https://twitter.com/s3goofys)
+- One-off fork attempting to fix https://github.com/kahing/goofys/issues/676 and https://github.com/kahing/goofys/issues/674
+  - https://github.com/ebressler/fusego to fix go v1.17 problems
+  - https://github.com/jacobsa/fuse/commit/d82237972ed9e7b2180ad27b3558f4c746a1fe16 to increase FUSE buffer size to 1MiB
 
 # Overview
 

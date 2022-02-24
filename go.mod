@@ -18,9 +18,8 @@ require (
 	github.com/go-ole/go-ole v1.2.5 // indirect
 	github.com/google/uuid v1.1.2
 	github.com/gopherjs/gopherjs v0.0.0-20210413103415-7d3cbed7d026 // indirect
-	github.com/jacobsa/fuse v0.0.0-20201216155545-e0296dec955f
+	github.com/jacobsa/fuse v0.0.0-20220214191219-c4197873da0d
 	github.com/kardianos/osext v0.0.0-20190222173326-2bc1f35cddc0
-	github.com/kylelemons/godebug v1.1.0 // indirect
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/satori/go.uuid v1.2.1-0.20181028125025-b2ce2384e17b
 	github.com/sevlyar/go-daemon v0.1.5
@@ -30,10 +29,10 @@ require (
 	github.com/urfave/cli v1.21.1-0.20190807111034-521735b7608a
 	golang.org/x/oauth2 v0.0.0-20210323180902-22b0adad7558
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20210403161142-5e06dd20ab57
+	golang.org/x/sys v0.0.0-20220209214540-3681064d5158
 	google.golang.org/api v0.43.0
 	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127
 	gopkg.in/ini.v1 v1.51.0
 )
 
-replace github.com/jacobsa/fuse => github.com/kahing/fusego v0.0.0-20200327063725-ca77844c7bcc
+replace github.com/jacobsa/fuse => github.com/scaleoutsean/fusego v0.0.0-20220224042622-855118b25f0f
