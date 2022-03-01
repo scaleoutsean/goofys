@@ -1,7 +1,7 @@
 # About
 
 - Fork of https://github.com/kahing/goofys 
-- One-off attempt to fix https://github.com/scaleoutsean/goofys/issues/676 and https://github.com/scaleoutsean/goofys/issues/674
+- One-off attempt to fix Goofys issues 676 and 674 (see upstream repo)
 
 # Overview
 
